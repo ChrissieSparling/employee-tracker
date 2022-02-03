@@ -1,0 +1,22 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "employee tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "employee-tracker"
+  },
+  "author": "chrissie sparling",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^15.0.1",
+    "express": "^4.17.2",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  }
+}
